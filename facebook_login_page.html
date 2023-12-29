@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hi-in.facebook.com</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: sans-serif;
+        max-height: 100vh;
+        width: 100vw;
+        height: 100vh;
+        /* display: flex;
+          justify-content: center;
+          align-items: center; */
+        background-color: rgba(173, 216, 230, 0.1);
+        overflow-x: hidden;
+      }
+      .box {
+        all: unset;
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        /* gap:clamp(0rem,5vw,10rem); */
+        padding: 20px 0px;
+        width: 100vw;
+        /* border: 1px solid black; */
+        min-height: 640px;
+        /* margin: 0px 40px; */
+        background-color: inherit;
+      }
+
+      .login {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        min-width: 400px;
+        /* margin-left: 0; */
+        /* border: 1px solid black; */
+        padding: 10px 0 0 70px;
+        /* border: 1px solid black; */
+      }
+      .container1 {
+        /* display: block; */
+        /* border: 1px solid black; */
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* align-items: center; */
+        /* justify-content: center; */
+        /* margin: 0 50px 0 0; */
+        padding: 0;
+        min-width: 394px;
+        max-width: 500px;
+        height: auto;
+        /* border: 1px solid black; */
+      }
+      .innercontainer {
+        width: 100%;
+        /* border: 1px solid black; */
+        margin-top: 10px;
+        padding-top: 170px;
+      }
+      .container1 .facebook {
+        font-size: 60px;
+        letter-spacing: -3px;
+        font-weight: bold;
+        color: #1877f2;
+        padding-bottom: 10px;
+      }
+      .container1 .description {
+        
+        font-size: 28px;
+        font-weight: large;
+      }
+      .container2 {
+        /* border: #000 1px solid; */
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        /* align-items: center; */
+        min-width: 396px;
+        min-height: 350px;
+
+        /* border: 1px solid black; */
+        /* justify-content: center; */
+        background-color: white;
+        border-radius: 7px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+      }
+      .container2 > input {
+        margin: 7px 15px 5px 15px;
+        padding: 15px;
+        font-size: 16px;
+        font-weight: 500;
+        border-radius: 5px;
+        position: relative;
+        border: 1px solid rgba(166, 165, 169, 0.7);
+      }
+      .container2 input:nth-child(1) {
+        margin-top: 15px;
+      }
+      #submit {
+        color: white;
+        background-color: #1877f2;
+        cursor: pointer;
+        font-weight: 500;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-weight: bold;
+        padding: 15px;
+        /* text-transform: capitalize; */
+        font-size: 17px;
+        text-align: center;
+      }
+      .container2 a {
+        border: none;
+        text-decoration: none;
+        /* text-transform: capitalize; */
+        position: relative;
+        font-size: 14px;
+        font-weight: 500;
+        margin: 5px 10px 19px 10px;
+        color: #1877f2;
+      }
+
+      .container2 a:hover {
+        text-decoration: underline;
+      }
+      .container2 .line {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 0;
+        border: none;
+        background-color: rgba(154, 152, 152, 0.3);
+        height: 1px;
+      }
+      .newlogin {
+        margin: 20px;
+      }
+      #newlogin {
+        display: inline;
+        width: auto;
+        left: 100px;
+        margin-top: 10px;
+        padding: 13px 15px 13px 15px;
+        font-weight: bold;
+        font-size: 17px;
+        color: white;
+        background-color: #42b72a;
+        text-align: center;
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+      }
+      .createpage {
+        font-size: 14px;
+        padding: 0 20px;
+        /* text-decoration: none; */
+        margin: 29px;
+        /* border: 1px solid black; */
+        font-weight: 500;
+        /* border: 1px solid black; */
+      }
+      .createpage .cplink {
+        text-decoration: none;
+        color: #000;
+        font-weight: bold;
+      }
+      .createpage .cplink:hover {
+        text-decoration: underline;
+      }
+      @media (max-width: 56rem) {
+        .box {
+          all: unset;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: flex-start;
+          padding: 0;
+        }
+        .container1 {
+          text-align: center;
+          margin: 0;
+          height: 200px;
+          max-width: 300px;
+          padding: 0px;
+          display: flex;
+        }
+        .innercontainer{
+          all: unset;
+          padding: 30px 0;
+        }
+        .login {
+          all: unset;
+          display: block;
+          height: auto;
+          width: auto;
+          /* margin: auto; */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="container1">
+        <div class="innercontainer">
+          <div class="facebook">facebook</div>
+          <div class="description">
+            Facebook helps you connect and share with people.
+          </div>
+        </div>
+      </div>
+
+      <div class="login">
+        <div class="container2">
+          <input
+            type="text"
+            name="userid"
+            id="userid"
+            placeholder="email or phone number"
+            required
+          />
+          <input
+            type="password"
+            name="pwd"
+            id="pwd"
+            placeholder="Password"
+            required
+          />
+          <input type="button" value="log in" id="submit" />
+          <a href="#"><span>forgot password?</span></a>
+          <span class="line"></span>
+          <div class="newlogin">
+            <input type="button" value="create new account" id="newlogin" />
+          </div>
+        </div>
+        <div class="createpage">
+          <a href="#" class="cplink">Create a Page</a> for a celebrity, brand or
+          business .
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
